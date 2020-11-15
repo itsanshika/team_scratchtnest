@@ -1,0 +1,113 @@
+body
+{
+  display: flex;
+  justify-content: center;
+margin: 0;
+padding: 0;
+box-sizing: border-box;;
+
+}
+.row
+{
+  margin: 0;
+  padding: 0;
+}
+.texts
+{
+  font-size: 13px;
+    color: white;
+}
+.date {
+    margin-top: 50px;
+    margin-bottom: 70px;
+
+}
+.image
+{
+  /* background-color: #001029; */
+/* background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png"); */
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+  width: 100%;
+height: 80%;
+    position: absolute;
+    top: 100px;
+    left: 0;
+
+
+
+}
+.row
+{
+   color: black;
+   z-index: 3;
+}
+.visit
+{
+  width: 80px;
+border-radius: 20px;
+margin-right: 10px;
+}
+.heading
+{
+  font-size: 3rem;
+  border-width: thick;
+  text-align: center;
+
+}
+.below
+{
+  font-size: 1rem;
+  text-align: center;
+}
+.add
+{
+  padding: 20px 0px 10px 8px;
+}
+.prevcl
+{
+  position: absolute;
+left: 560px;
+}
+.rightcl
+{
+  position: absolute;
+  left: 580px;
+}
+
+.slider
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  /* background-image: url("bla.jpg"); */
+  background: linear-gradient(to right,#555555,#000000);
+  z-index: -2;
+}
+.hero :: after
+{
+  content: "";
+  background: white;
+  width:100%;
+  height:100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+.one
+{
+  position: absolute;
+  top: 500px;;
+  left: 20px;
+}
+.content
+{
+padding-top: 20px;
+}
+.zind
+{
+  z-index: 5;
+}
